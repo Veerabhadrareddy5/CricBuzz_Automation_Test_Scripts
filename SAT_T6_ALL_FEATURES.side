@@ -1,0 +1,436 @@
+{
+  "id": "c6f37f19-d533-420b-9534-7c61babf5eff",
+  "version": "2.0",
+  "name": "SAT",
+  "url": "https://www.cricbuzz.com",
+  "tests": [{
+    "id": "2ffdcb8b-daea-454c-a15d-72694ea9fc7d",
+    "name": "T4_LIVEMATCH",
+    "commands": [{
+      "id": "f7d43419-db34-4215-8889-1bd08a0a136c",
+      "comment": "",
+      "command": "open",
+      "target": "/cricket-schedule/series",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c73b127-b6cf-49be-994e-c4574c904a15",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x813",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ffa6314-9a60-4da2-9451-aa60956b1ee4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=MI vs CSK - CSK Won",
+      "targets": [
+        ["linkText=MI vs CSK - CSK Won", "linkText"],
+        ["css=.cb-mat-mnu-itm:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'MI vs CSK - CSK Won')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/live-cricket-scores/46046/mi-vs-csk-33rd-match-indian-premier-league-2022')]", "xpath:href"],
+        ["xpath=//div[2]/div/nav/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'MI vs CSK - CSK Won')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "787d3994-e405-44dd-9a0c-2aea743265a1",
+    "name": "T5_player_stats",
+    "commands": [{
+      "id": "66c34744-7d6c-41cc-ac90-e45ff3ad6234",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "01254bac-4b3c-4eb6-98ca-e336487eb5bd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x813",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "916818c1-9cf0-4e08-b453-f076966b122a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cb-search-input-icon",
+      "targets": [
+        ["css=.cb-search-input-icon", "css:finder"],
+        ["xpath=//div[@id='main-menu_search']/div/form/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div/div/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "042ac5ed-5a28-4016-9114-581498c885b5",
+      "comment": "",
+      "command": "type",
+      "target": "id=search_bar_menu",
+      "targets": [
+        ["id=search_bar_menu", "id"],
+        ["name=search", "name"],
+        ["css=#search_bar_menu", "css:finder"],
+        ["xpath=//input[@id='search_bar_menu']", "xpath:attributes"],
+        ["xpath=//div[@id='main-menu_search']/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "rahuldravid"
+    }, {
+      "id": "0152dc75-f958-4821-b11a-a65574798bcf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cb-suggst-item-type",
+      "targets": [
+        ["css=.cb-suggst-item-type", "css:finder"],
+        ["xpath=//li[@id='search_item_0']/a/div[2]/p/span", "xpath:idRelative"],
+        ["xpath=//p/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Players')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee634d6c-b215-499e-a22e-a878ec28ea8e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=DC vs RR - Preview",
+      "targets": [
+        ["linkText=DC vs RR - Preview", "linkText"],
+        ["css=.cb-mat-mnu-itm:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'DC vs RR - Preview')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/nav/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/live-cricket-scores/46051/dc-vs-rr-34th-match-indian-premier-league-2022')]", "xpath:href"],
+        ["xpath=//div[2]/div/nav/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'DC vs RR - Preview')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "f5d57095-0365-4d71-a005-9da0e4f40603",
+    "name": "T6_ALL_FEATURES",
+    "commands": [{
+      "id": "4a8f1e97-a1b7-4c7f-8ee7-6cb95d5388de",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac7767fe-3448-4a12-b4bd-51448b6c94dd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x813",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "61fb35e2-6c3a-4e12-9da2-6d1b3f6226f5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Live Scores",
+      "targets": [
+        ["linkText=Live Scores", "linkText"],
+        ["css=.cb-hm-mnu-itm:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Live Scores')]", "xpath:link"],
+        ["xpath=//nav[@id='cb-main-menu']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-match/live-scores')]", "xpath:href"],
+        ["xpath=//nav/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Live Scores')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9437cd6-f828-450d-93b8-458897503dca",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Schedule",
+      "targets": [
+        ["linkText=Schedule", "linkText"],
+        ["css=.cb-hm-mnu-itm:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Schedule')]", "xpath:link"],
+        ["xpath=//nav[@id='cb-main-menu']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-schedule/upcoming-series/international')]", "xpath:href"],
+        ["xpath=//nav/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Schedule')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "619b0a74-c925-45a1-80bf-6c3e638298ab",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Archives",
+      "targets": [
+        ["linkText=Archives", "linkText"],
+        ["css=.cb-hm-mnu-itm:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Archives')]", "xpath:link"],
+        ["xpath=//nav[@id='cb-main-menu']/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-scorecard-archives')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Archives')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecadf7de-2edc-4320-b067-3471f52877d6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=News",
+      "targets": [
+        ["linkText=News", "linkText"],
+        ["css=#newsDropDown > .text-white", "css:finder"],
+        ["xpath=//a[contains(text(),'News')]", "xpath:link"],
+        ["xpath=//div[@id='newsDropDown']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-news')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'News')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d68d0239-e782-44e2-81f6-129c7c4de105",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=News",
+      "targets": [
+        ["linkText=News", "linkText"],
+        ["css=#newsDropDown > .text-white", "css:finder"],
+        ["xpath=//a[contains(text(),'News')]", "xpath:link"],
+        ["xpath=//div[@id='newsDropDown']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-news')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'News')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0467ed2d-680e-425f-b1a4-36f37653bf86",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=News",
+      "targets": [
+        ["linkText=News", "linkText"],
+        ["css=#newsDropDown > .text-white", "css:finder"],
+        ["xpath=//a[contains(text(),'News')]", "xpath:link"],
+        ["xpath=//div[@id='newsDropDown']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-news')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'News')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76d0ab85-ba1d-432b-ad47-a9fbbaf357d2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=News",
+      "targets": [
+        ["linkText=News", "linkText"],
+        ["css=#newsDropDown > .text-white", "css:finder"],
+        ["xpath=//a[contains(text(),'News')]", "xpath:link"],
+        ["xpath=//div[@id='newsDropDown']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-news')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'News')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "649d24dd-a865-473b-b2a2-74501e1f98aa",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Latest News",
+      "targets": [
+        ["linkText=Latest News", "linkText"],
+        ["css=#newsDropDown .cb-subnav-item:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Latest News')]", "xpath:link"],
+        ["xpath=//div[@id='newsDropDown']/nav/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-news/latest-news')]", "xpath:href"],
+        ["xpath=//nav/div/nav/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Latest News')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bde6b0d-24db-447c-9141-b8cf5ef019af",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Topics",
+      "targets": [
+        ["linkText=Topics", "linkText"],
+        ["css=#newsDropDown .cb-subnav-item:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Topics')]", "xpath:link"],
+        ["xpath=//div[@id='newsDropDown']/nav/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-news/info/')]", "xpath:href"],
+        ["xpath=//nav/div/nav/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Topics')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a494418b-d46b-458b-9361-b839e66a0814",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Spotlight",
+      "targets": [
+        ["linkText=Spotlight", "linkText"],
+        ["css=#newsDropDown .cb-subnav-item:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Spotlight')]", "xpath:link"],
+        ["xpath=//div[@id='newsDropDown']/nav/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-news/editorial/spotlight')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Spotlight')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44a9721a-6a3d-4666-bd22-13ad7100d59b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Opinions",
+      "targets": [
+        ["linkText=Opinions", "linkText"],
+        ["css=#newsDropDown .cb-subnav-item:nth-child(6)", "css:finder"],
+        ["xpath=//a[contains(text(),'Opinions')]", "xpath:link"],
+        ["xpath=//div[@id='newsDropDown']/nav/a[6]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-news/editorial/editorial-list')]", "xpath:href"],
+        ["xpath=//a[6]", "xpath:position"],
+        ["xpath=//a[contains(.,'Opinions')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "de26eb7e-738b-495e-9174-c45e7880a36a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Specials",
+      "targets": [
+        ["linkText=Specials", "linkText"],
+        ["css=#newsDropDown .cb-subnav-item:nth-child(7)", "css:finder"],
+        ["xpath=//a[contains(text(),'Specials')]", "xpath:link"],
+        ["xpath=//div[@id='newsDropDown']/nav/a[7]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-news/editorial/specials')]", "xpath:href"],
+        ["xpath=//a[7]", "xpath:position"],
+        ["xpath=//a[contains(.,'Specials')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5de1d15-659a-4d8e-8f69-a6c24f505309",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Stats & Analysis",
+      "targets": [
+        ["linkText=Stats & Analysis", "linkText"],
+        ["css=#newsDropDown .cb-subnav-item:nth-child(8)", "css:finder"],
+        ["xpath=//a[contains(text(),'Stats & Analysis')]", "xpath:link"],
+        ["xpath=//div[@id='newsDropDown']/nav/a[8]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-news/editorial/stats-analysis')]", "xpath:href"],
+        ["xpath=//a[8]", "xpath:position"],
+        ["xpath=//a[contains(.,'Stats & Analysis')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff3ef730-71db-4373-876e-74347068705a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Interviews",
+      "targets": [
+        ["linkText=Interviews", "linkText"],
+        ["css=#newsDropDown .cb-subnav-item:nth-child(9)", "css:finder"],
+        ["xpath=//a[contains(text(),'Interviews')]", "xpath:link"],
+        ["xpath=//div[@id='newsDropDown']/nav/a[9]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-news/editorial/interviews')]", "xpath:href"],
+        ["xpath=//a[9]", "xpath:position"],
+        ["xpath=//a[contains(.,'Interviews')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "31a35f4b-fdf6-4aae-82b5-a84edf67b10c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Interviews",
+      "targets": [
+        ["linkText=Interviews", "linkText"],
+        ["css=#newsDropDown .cb-subnav-item:nth-child(9)", "css:finder"],
+        ["xpath=//a[contains(text(),'Interviews')]", "xpath:link"],
+        ["xpath=//div[@id='newsDropDown']/nav/a[9]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-news/editorial/interviews')]", "xpath:href"],
+        ["xpath=//a[9]", "xpath:position"],
+        ["xpath=//a[contains(.,'Interviews')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab51e097-7f31-487f-9b74-ca268fb45e67",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Live Blogs",
+      "targets": [
+        ["linkText=Live Blogs", "linkText"],
+        ["css=.cb-sub-navigation > .cb-subnav-item:nth-child(10)", "css:finder"],
+        ["xpath=//a[contains(text(),'Live Blogs')]", "xpath:link"],
+        ["xpath=//div[@id='newsDropDown']/nav/a[10]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-news/editorial/live-blogs')]", "xpath:href"],
+        ["xpath=//a[10]", "xpath:position"],
+        ["xpath=//a[contains(.,'Live Blogs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cf0d21d-78a5-42d7-8c80-e5baf6b8ae2c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=DC v PBKS, Match 32, IPL 2022",
+      "targets": [
+        ["linkText=DC v PBKS, Match 32, IPL 2022", "linkText"],
+        ["css=.cb-col:nth-child(3) .cb-ltst-wgt-hdr > .cb-nws-hdln-ancr", "css:finder"],
+        ["xpath=(//a[contains(text(),'DC v PBKS, Match 32, IPL 2022')])[2]", "xpath:link"],
+        ["xpath=//div[@id='latest-photos-mod']/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/cricket-gallery/5371/dc-v-pbks-match-32-ipl-2022')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div[2]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f8b53611-fe1d-4bf1-a486-48bccc9a9903",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=DC v PBKS, Match 32, IPL 2022",
+      "targets": [
+        ["linkText=DC v PBKS, Match 32, IPL 2022", "linkText"],
+        ["css=.cb-col:nth-child(3) .cb-ltst-wgt-hdr > .cb-nws-hdln-ancr", "css:finder"],
+        ["xpath=(//a[contains(text(),'DC v PBKS, Match 32, IPL 2022')])[2]", "xpath:link"],
+        ["xpath=//div[@id='latest-photos-mod']/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/cricket-gallery/5371/dc-v-pbks-match-32-ipl-2022')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div[2]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6c8a2d43-7381-4fec-badc-499f8f252929",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=KENT vs HAM - Stumps",
+      "targets": [
+        ["linkText=KENT vs HAM - Stumps", "linkText"],
+        ["css=.cb-mat-mnu-itm:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'KENT vs HAM - Stumps')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/nav/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/live-cricket-scores/44271/kent-vs-ham-county-div-1-county-championship-division-one-2022')]", "xpath:href"],
+        ["xpath=//div[2]/div/nav/a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'KENT vs HAM - Stumps')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "82a136b6-93bd-4ee3-94e9-4ab42545c949",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=KENT vs HAM - Stumps",
+      "targets": [
+        ["linkText=KENT vs HAM - Stumps", "linkText"],
+        ["css=.cb-mat-mnu-itm:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'KENT vs HAM - Stumps')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/nav/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/live-cricket-scores/44271/kent-vs-ham-county-div-1-county-championship-division-one-2022')]", "xpath:href"],
+        ["xpath=//div[2]/div/nav/a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'KENT vs HAM - Stumps')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "896956fa-a616-4343-9f51-0660c4ebd0a7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2ffdcb8b-daea-454c-a15d-72694ea9fc7d"]
+  }],
+  "urls": ["https://www.cricbuzz.com/"],
+  "plugins": []
+}

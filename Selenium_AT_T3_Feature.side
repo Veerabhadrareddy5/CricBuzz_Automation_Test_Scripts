@@ -1,0 +1,709 @@
+{
+  "id": "fa04ffc4-e2f5-4764-9d76-1c97d726f447",
+  "version": "2.0",
+  "name": "Selenium_AT",
+  "url": "https://www.cricbuzz.com",
+  "tests": [{
+    "id": "90821c41-bc21-441c-acb9-15473ef3ecc8",
+    "name": "T1_INVALID",
+    "commands": [{
+      "id": "adbc30e5-93df-47a5-9997-c393f2c40c28",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "55c3c9b0-3fe2-457c-accc-19ff49e6c67c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x813",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8d84cc33-ffc0-412c-8b96-7d3b90437171",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.cb-col:nth-child(3) .cb-hmscg-bwl-txt > .cb-ovr-flo:nth-child(1)",
+      "targets": [
+        ["css=.cb-col:nth-child(3) .cb-hmscg-bwl-txt > .cb-ovr-flo:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='hm-scag-mtch-blk']/ul/li[3]/a/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//li[3]/a/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7056fdb9-a9ab-4aa7-ae93-33ba9bebfe3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cb-user-icon",
+      "targets": [
+        ["css=.cb-user-icon", "css:finder"],
+        ["xpath=//a[@id='cb-plus-user-icon']/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8c20e4a-74e7-451d-accf-77f1c1aaff74",
+      "comment": "",
+      "command": "type",
+      "target": "id=cb-user-mail",
+      "targets": [
+        ["id=cb-user-mail", "id"],
+        ["css=#cb-user-mail", "css:finder"],
+        ["xpath=//input[@id='cb-user-mail']", "xpath:attributes"],
+        ["xpath=//form[@id='cb-email-otp-form']/div/span/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "veera@gmail.com"
+    }, {
+      "id": "a0657dee-228c-4951-ac1b-c7ff7ddca15d",
+      "comment": "",
+      "command": "click",
+      "target": "id=email-otp-btn",
+      "targets": [
+        ["id=email-otp-btn", "id"],
+        ["css=#email-otp-btn", "css:finder"],
+        ["xpath=//button[@id='email-otp-btn']", "xpath:attributes"],
+        ["xpath=//form[@id='cb-email-otp-form']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f30743d-6188-49a0-8ce1-5a85064ab939",
+      "comment": "",
+      "command": "click",
+      "target": "id=digit-1",
+      "targets": [
+        ["id=digit-1", "id"],
+        ["name=digit-1", "name"],
+        ["css=#digit-1", "css:finder"],
+        ["xpath=//input[@id='digit-1']", "xpath:attributes"],
+        ["xpath=//div[@id='cb-otp-digits']/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6ac7b0e-fc82-4c9f-9ba4-5e26091cc34b",
+      "comment": "",
+      "command": "type",
+      "target": "id=digit-1",
+      "targets": [
+        ["id=digit-1", "id"],
+        ["name=digit-1", "name"],
+        ["css=#digit-1", "css:finder"],
+        ["xpath=//input[@id='digit-1']", "xpath:attributes"],
+        ["xpath=//div[@id='cb-otp-digits']/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "db06ac3a-fd68-4186-9fe4-34dfb4167543",
+      "comment": "",
+      "command": "type",
+      "target": "id=digit-2",
+      "targets": [
+        ["id=digit-2", "id"],
+        ["name=digit-2", "name"],
+        ["css=#digit-2", "css:finder"],
+        ["xpath=//input[@id='digit-2']", "xpath:attributes"],
+        ["xpath=//div[@id='cb-otp-digits']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "ffc39977-e836-494d-8a6c-1fdbdaa07541",
+      "comment": "",
+      "command": "type",
+      "target": "id=digit-3",
+      "targets": [
+        ["id=digit-3", "id"],
+        ["name=digit-3", "name"],
+        ["css=#digit-3", "css:finder"],
+        ["xpath=//input[@id='digit-3']", "xpath:attributes"],
+        ["xpath=//div[@id='cb-otp-digits']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "4"
+    }, {
+      "id": "facc8a47-a560-4745-a6a6-48e41b54b78d",
+      "comment": "",
+      "command": "type",
+      "target": "id=digit-4",
+      "targets": [
+        ["id=digit-4", "id"],
+        ["name=digit-4", "name"],
+        ["css=#digit-4", "css:finder"],
+        ["xpath=//input[@id='digit-4']", "xpath:attributes"],
+        ["xpath=//div[@id='cb-otp-digits']/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "cfca2078-b638-428d-9731-fc18fc0f1e94",
+      "comment": "",
+      "command": "type",
+      "target": "id=digit-5",
+      "targets": [
+        ["id=digit-5", "id"],
+        ["name=digit-5", "name"],
+        ["css=#digit-5", "css:finder"],
+        ["xpath=//input[@id='digit-5']", "xpath:attributes"],
+        ["xpath=//div[@id='cb-otp-digits']/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "e0487a7b-a499-446e-aa9a-5907b6e10348",
+      "comment": "",
+      "command": "type",
+      "target": "id=digit-6",
+      "targets": [
+        ["id=digit-6", "id"],
+        ["name=digit-6", "name"],
+        ["css=#digit-6", "css:finder"],
+        ["xpath=//input[@id='digit-6']", "xpath:attributes"],
+        ["xpath=//div[@id='cb-otp-digits']/input[6]", "xpath:idRelative"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "fb119eb0-df2d-400e-9372-7117ac03de7a",
+      "comment": "",
+      "command": "click",
+      "target": "id=cb-otp-btn",
+      "targets": [
+        ["id=cb-otp-btn", "id"],
+        ["css=#cb-otp-btn", "css:finder"],
+        ["xpath=//button[@id='cb-otp-btn']", "xpath:attributes"],
+        ["xpath=//div[@id='cb-enter-otp-block']/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'SUBMIT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "175e71e1-0b50-4d67-92d4-27186303cba8",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d25a21b-1812-4b8e-ab1f-3ab9724b7f58",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cb-bg-white",
+      "targets": [
+        ["css=.cb-bg-white", "css:finder"],
+        ["xpath=//div[@id='page-wrapper']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "1958e081-4d6d-447a-b4fd-1a8748e04814",
+    "name": "T2_VALID",
+    "commands": [{
+      "id": "0f73ff44-b489-4c20-bfe7-4cd7f292c08d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6de6c432-b31b-49b7-94ee-4d14e5467e2d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x813",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad1f85a2-89ce-46cb-9eee-5c28896453d9",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign Out",
+      "targets": [
+        ["linkText=Sign Out", "linkText"],
+        ["css=#cb-plus-dropdown > .cb-subnav-item:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign Out')]", "xpath:link"],
+        ["xpath=//nav[@id='cb-plus-dropdown']/a[2]", "xpath:idRelative"],
+        ["xpath=//div[8]/nav/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign Out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "868e40df-71c1-42ed-9b2f-73c5a5adfd15",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cb-user-icon",
+      "targets": [
+        ["css=.cb-user-icon", "css:finder"],
+        ["xpath=//a[@id='cb-plus-user-icon']/span", "xpath:idRelative"],
+        ["xpath=//a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1cde198-9505-475b-8a95-07d44ad8913f",
+      "comment": "",
+      "command": "type",
+      "target": "id=cb-user-mail",
+      "targets": [
+        ["id=cb-user-mail", "id"],
+        ["css=#cb-user-mail", "css:finder"],
+        ["xpath=//input[@id='cb-user-mail']", "xpath:attributes"],
+        ["xpath=//form[@id='cb-email-otp-form']/div/span/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "veerabhadrareddy.karri@gmail.com"
+    }, {
+      "id": "b3a9396b-baa5-4941-89ea-e267c3f7b50d",
+      "comment": "",
+      "command": "click",
+      "target": "id=email-otp-btn",
+      "targets": [
+        ["id=email-otp-btn", "id"],
+        ["css=#email-otp-btn", "css:finder"],
+        ["xpath=//button[@id='email-otp-btn']", "xpath:attributes"],
+        ["xpath=//form[@id='cb-email-otp-form']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continue')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "79331b0a-218e-495f-8633-fafae1d5385c",
+      "comment": "",
+      "command": "click",
+      "target": "id=digit-1",
+      "targets": [
+        ["id=digit-1", "id"],
+        ["name=digit-1", "name"],
+        ["css=#digit-1", "css:finder"],
+        ["xpath=//input[@id='digit-1']", "xpath:attributes"],
+        ["xpath=//div[@id='cb-otp-digits']/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b295391-3bf0-452d-9bd3-ccb7e727a3da",
+      "comment": "",
+      "command": "type",
+      "target": "id=digit-1",
+      "targets": [
+        ["id=digit-1", "id"],
+        ["name=digit-1", "name"],
+        ["css=#digit-1", "css:finder"],
+        ["xpath=//input[@id='digit-1']", "xpath:attributes"],
+        ["xpath=//div[@id='cb-otp-digits']/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "2"
+    }, {
+      "id": "8aa65f23-0048-4f4a-9102-db34e7be56a8",
+      "comment": "",
+      "command": "type",
+      "target": "id=digit-2",
+      "targets": [
+        ["id=digit-2", "id"],
+        ["name=digit-2", "name"],
+        ["css=#digit-2", "css:finder"],
+        ["xpath=//input[@id='digit-2']", "xpath:attributes"],
+        ["xpath=//div[@id='cb-otp-digits']/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "3cbcd068-795a-4e22-8da5-a1f21a54c55c",
+      "comment": "",
+      "command": "type",
+      "target": "id=digit-3",
+      "targets": [
+        ["id=digit-3", "id"],
+        ["name=digit-3", "name"],
+        ["css=#digit-3", "css:finder"],
+        ["xpath=//input[@id='digit-3']", "xpath:attributes"],
+        ["xpath=//div[@id='cb-otp-digits']/input[3]", "xpath:idRelative"],
+        ["xpath=//input[3]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "fff47cf8-23e4-47b8-a512-c41b9150aaed",
+      "comment": "",
+      "command": "type",
+      "target": "id=digit-4",
+      "targets": [
+        ["id=digit-4", "id"],
+        ["name=digit-4", "name"],
+        ["css=#digit-4", "css:finder"],
+        ["xpath=//input[@id='digit-4']", "xpath:attributes"],
+        ["xpath=//div[@id='cb-otp-digits']/input[4]", "xpath:idRelative"],
+        ["xpath=//input[4]", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "d6932797-c3a8-4d43-8880-a286c461b0ed",
+      "comment": "",
+      "command": "type",
+      "target": "id=digit-5",
+      "targets": [
+        ["id=digit-5", "id"],
+        ["name=digit-5", "name"],
+        ["css=#digit-5", "css:finder"],
+        ["xpath=//input[@id='digit-5']", "xpath:attributes"],
+        ["xpath=//div[@id='cb-otp-digits']/input[5]", "xpath:idRelative"],
+        ["xpath=//input[5]", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "51fa6ff8-0942-42cf-a4a6-eff56ce505fb",
+      "comment": "",
+      "command": "type",
+      "target": "id=digit-6",
+      "targets": [
+        ["id=digit-6", "id"],
+        ["name=digit-6", "name"],
+        ["css=#digit-6", "css:finder"],
+        ["xpath=//input[@id='digit-6']", "xpath:attributes"],
+        ["xpath=//div[@id='cb-otp-digits']/input[6]", "xpath:idRelative"],
+        ["xpath=//input[6]", "xpath:position"]
+      ],
+      "value": "3"
+    }, {
+      "id": "aa4a29f4-9a8e-4cf4-bcdb-a76657407246",
+      "comment": "",
+      "command": "click",
+      "target": "id=cb-otp-btn",
+      "targets": [
+        ["id=cb-otp-btn", "id"],
+        ["css=#cb-otp-btn", "css:finder"],
+        ["xpath=//button[@id='cb-otp-btn']", "xpath:attributes"],
+        ["xpath=//div[@id='cb-enter-otp-block']/form/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'SUBMIT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "008990ac-0eb3-46b3-9679-2aace49ffc9d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cb-hm-text > img",
+      "targets": [
+        ["css=.cb-hm-text > img", "css:finder"],
+        ["xpath=//img[@alt='Cricbuzz Logo']", "xpath:img"],
+        ["xpath=//nav[@id='cb-main-menu']/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a740679d-1676-413c-9b14-5cd1c3b19e15",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.cb-col:nth-child(3) .cb-hmscg-bwl-txt > .cb-ovr-flo:nth-child(2)",
+      "targets": [
+        ["css=.cb-col:nth-child(3) .cb-hmscg-bwl-txt > .cb-ovr-flo:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='hm-scag-mtch-blk']/ul/li[3]/a/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//li[3]/a/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f65ebee-ee31-4763-a939-c58e2674d2bb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.cb-col:nth-child(3) .cb-hmscg-bwl-txt > .cb-ovr-flo:nth-child(2)",
+      "targets": [
+        ["css=.cb-col:nth-child(3) .cb-hmscg-bwl-txt > .cb-ovr-flo:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='hm-scag-mtch-blk']/ul/li[3]/a/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//li[3]/a/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b1b7524-ca91-4e3b-86b1-696bf78994ae",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign Out",
+      "targets": [
+        ["linkText=Sign Out", "linkText"],
+        ["css=#cb-plus-dropdown > .cb-subnav-item:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign Out')]", "xpath:link"],
+        ["xpath=//nav[@id='cb-plus-dropdown']/a[2]", "xpath:idRelative"],
+        ["xpath=//div[8]/nav/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign Out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "66b8b5a5-0972-41ed-9f7b-b602f0a15afe",
+    "name": "T3_Feature",
+    "commands": [{
+      "id": "f76e1737-601f-4b7c-8a24-9c534dcda3b0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "000ce377-a708-4d9c-b9f6-28defe198e05",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x813",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eaedadd2-c37b-4ab7-847d-8d33ae61e02e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Live Scores",
+      "targets": [
+        ["linkText=Live Scores", "linkText"],
+        ["css=.cb-hm-mnu-itm:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Live Scores')]", "xpath:link"],
+        ["xpath=//nav[@id='cb-main-menu']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-match/live-scores')]", "xpath:href"],
+        ["xpath=//nav/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Live Scores')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4de221ce-c20a-45a7-9bcd-35d084a2273c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cb-col:nth-child(2) > .cb-mtch-lst:nth-child(2) .cb-hmscg-bwl-txt > .cb-ovr-flo:nth-child(2)",
+      "targets": [
+        ["css=.cb-col:nth-child(2) > .cb-mtch-lst:nth-child(2) .cb-hmscg-bwl-txt > .cb-ovr-flo:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='page-wrapper']/div[5]/div[2]/div/div/div/div[2]/a/div/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//a/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4470be41-a766-47fc-b8bf-52ade7e3ee3f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Scorecard",
+      "targets": [
+        ["linkText=Scorecard", "linkText"],
+        ["css=.cb-nav-tab:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Scorecard')]", "xpath:link"],
+        ["xpath=//div[@id='matchCenter']/div[2]/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/live-cricket-scorecard/44276/lancs-vs-gloucs-county-div-1-county-championship-division-one-2022')]", "xpath:href"],
+        ["xpath=//div[4]/div[2]/nav/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Scorecard')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "468a411d-2b76-41fa-a3f8-4e44eaddd17a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=George Balderson",
+      "targets": [
+        ["linkText=George Balderson", "linkText"],
+        ["css=#innings_2 .cb-col:nth-child(3) > .cb-col-27 > .cb-text-link", "css:finder"],
+        ["xpath=//a[contains(text(),'George Balderson')]", "xpath:link"],
+        ["xpath=//div[@id='innings_2']/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/profiles/15233/george-balderson')]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'George Balderson')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56f966d0-9700-4fea-aa29-a24e86b267d5",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,729)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "048f0f8c-ed3a-4c13-8be1-7561bbd1cbe6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Schedule",
+      "targets": [
+        ["linkText=Schedule", "linkText"],
+        ["css=.cb-hm-mnu-itm:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'Schedule')]", "xpath:link"],
+        ["xpath=//nav[@id='cb-main-menu']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-schedule/upcoming-series/international')]", "xpath:href"],
+        ["xpath=//nav/a[3]", "xpath:position"],
+        ["xpath=//a[contains(.,'Schedule')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e034bd6-d364-47b2-8491-1a4557737864",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Archives",
+      "targets": [
+        ["linkText=Archives", "linkText"],
+        ["css=.cb-hm-mnu-itm:nth-child(4)", "css:finder"],
+        ["xpath=//a[contains(text(),'Archives')]", "xpath:link"],
+        ["xpath=//nav[@id='cb-main-menu']/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cricket-scorecard-archives')]", "xpath:href"],
+        ["xpath=//a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Archives')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb29d546-7c1c-40e5-a16d-70d52c980d61",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=MI vs CSK - CSK Won",
+      "targets": [
+        ["linkText=MI vs CSK - CSK Won", "linkText"],
+        ["css=.cb-mat-mnu-itm:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'MI vs CSK - CSK Won')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/live-cricket-scores/46046/mi-vs-csk-33rd-match-indian-premier-league-2022')]", "xpath:href"],
+        ["xpath=//div[2]/div/nav/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'MI vs CSK - CSK Won')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e9941f29-99cf-43e1-bc43-14ada1970f81",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=MI vs CSK - CSK Won",
+      "targets": [
+        ["linkText=MI vs CSK - CSK Won", "linkText"],
+        ["css=.cb-mat-mnu-itm:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'MI vs CSK - CSK Won')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/live-cricket-scores/46046/mi-vs-csk-33rd-match-indian-premier-league-2022')]", "xpath:href"],
+        ["xpath=//div[2]/div/nav/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'MI vs CSK - CSK Won')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "91a31b8f-64b0-4f0e-8e7a-a96f80fb97f0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Scorecard",
+      "targets": [
+        ["linkText=Scorecard", "linkText"],
+        ["css=.cb-nav-tab:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Scorecard')]", "xpath:link"],
+        ["xpath=//div[@id='matchCenter']/div[2]/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/live-cricket-scorecard/46046/mi-vs-csk-33rd-match-indian-premier-league-2022')]", "xpath:href"],
+        ["xpath=//div[4]/div[2]/nav/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Scorecard')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "932b22af-571e-4525-a522-b735e595852e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Rohit (c)",
+      "targets": [
+        ["linkText=Rohit (c)", "linkText"],
+        ["css=#innings_1 .cb-col:nth-child(3) > .cb-col-27 > .cb-text-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Rohit (c)')]", "xpath:link"],
+        ["xpath=//div[@id='innings_1']/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/profiles/576/rohit')]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Rohit (c)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4876be5e-c4f8-4f0d-b4a8-18a61e15c5fb",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Rohit (c)",
+      "targets": [
+        ["linkText=Rohit (c)", "linkText"],
+        ["css=#innings_1 .cb-col:nth-child(3) > .cb-col-27 > .cb-text-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Rohit (c)')]", "xpath:link"],
+        ["xpath=//div[@id='innings_1']/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/profiles/576/rohit')]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Rohit (c)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f99f8ae7-96a0-4f53-8e9e-ef4240908918",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=MI vs CSK - CSK Won",
+      "targets": [
+        ["linkText=MI vs CSK - CSK Won", "linkText"],
+        ["css=.cb-mat-mnu-itm:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'MI vs CSK - CSK Won')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/live-cricket-scores/46046/mi-vs-csk-33rd-match-indian-premier-league-2022')]", "xpath:href"],
+        ["xpath=//div[2]/div/nav/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'MI vs CSK - CSK Won')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "72dc82be-2f67-4135-99b8-c4e268a8a1d6",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=6",
+      "targets": [
+        ["index=6"]
+      ],
+      "value": ""
+    }, {
+      "id": "322d260d-0c77-404e-8215-39a7c6ef4588",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "d50deab6-b17a-46e8-9c14-ed00c0772a9e",
+      "comment": "",
+      "command": "click",
+      "target": "css=a > div img",
+      "targets": [
+        ["css=a > div img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.criteo.net/design/dt/67502/220311/087b7f25e5d047a5a9a5f360f2399f6d_image_ad_300x600.jpeg')]", "xpath:img"],
+        ["xpath=//div[@id='cto_banner_content']/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/div/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win5114",
+      "windowTimeout": 2000
+    }, {
+      "id": "d48dd837-6d9c-4fa7-90a0-653c847d2e88",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d881f04-02b9-4789-b780-f9b66b1620e1",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win5114}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ec17513-aa2f-4fc6-8458-990af761a644",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf1f97a0-7413-431d-bc22-703c8197c51f",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b9b7695d-77de-42d4-ad80-599468178f34",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["90821c41-bc21-441c-acb9-15473ef3ecc8"]
+  }],
+  "urls": ["https://www.cricbuzz.com/"],
+  "plugins": []
+}

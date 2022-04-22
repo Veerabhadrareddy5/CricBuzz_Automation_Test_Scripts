@@ -1,0 +1,50 @@
+{
+  "id": "c6f37f19-d533-420b-9534-7c61babf5eff",
+  "version": "2.0",
+  "name": "SAT",
+  "url": "https://www.cricbuzz.com",
+  "tests": [{
+    "id": "2ffdcb8b-daea-454c-a15d-72694ea9fc7d",
+    "name": "T4_LIVEMATCH",
+    "commands": [{
+      "id": "f7d43419-db34-4215-8889-1bd08a0a136c",
+      "comment": "",
+      "command": "open",
+      "target": "/cricket-schedule/series",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3c73b127-b6cf-49be-994e-c4574c904a15",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1440x813",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6ffa6314-9a60-4da2-9451-aa60956b1ee4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=MI vs CSK - CSK Won",
+      "targets": [
+        ["linkText=MI vs CSK - CSK Won", "linkText"],
+        ["css=.cb-mat-mnu-itm:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'MI vs CSK - CSK Won')]", "xpath:link"],
+        ["xpath=//div[@id='page-wrapper']/div[2]/div/nav/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/live-cricket-scores/46046/mi-vs-csk-33rd-match-indian-premier-league-2022')]", "xpath:href"],
+        ["xpath=//div[2]/div/nav/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'MI vs CSK - CSK Won')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "896956fa-a616-4343-9f51-0660c4ebd0a7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2ffdcb8b-daea-454c-a15d-72694ea9fc7d"]
+  }],
+  "urls": ["https://www.cricbuzz.com/"],
+  "plugins": []
+}
